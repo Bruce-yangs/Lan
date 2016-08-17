@@ -1,0 +1,78 @@
+
+html { 
+font-size: 625%
+ } 
+ @media only screen and (min-height: 480px) { 
+  html { font-size:625%!important } 
+ }
+  @media only screen and (min-height: 568px) { 
+   html { font-size:700%!important } 
+  }
+   @media only screen and (min-height: 667px) {
+     html { font-size:800%!important } 
+     
+   }
+.container{
+	width: 100%;
+	height: 100%;
+	background:#231e28;
+	h1{
+	  width:100%;
+	  padding:.24rem;
+	  font-size:.3rem;
+	  text-align:center;
+	  color:#fff;
+	  a{
+	  	color:#fff;
+	  	text-decoration: underline;
+	  	font-weight: 600;
+	  }
+	}
+}
+.swiper-container{
+	width: 80%;
+    overfolw:visible;
+
+	ul{
+	   width:100%;
+	   
+
+	li{
+       width:80%;
+	   padding:0 5%;
+	   text-align:center;
+	   img{
+	     display:block;
+	   }
+	   div{
+	   background:#fff;
+	   padding:.1rem;
+	   }
+	   h2{
+	      font-size:.14rem;
+	      color:#211B27;
+	   }
+	   p{
+	     font-size:.12rem;
+	     color:#ABABAD;
+	   }
+
+	}
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	
+} 
+
+.page-list{    
+	span{
+	  background:#fff;
+	}
+}
+
+
+.go{
+	 background: -webkit-linear-gradient(top, #0DA3F8,#0C6DD6); 
+}

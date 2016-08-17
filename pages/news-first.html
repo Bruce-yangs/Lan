@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!--设置IE浏览器以最新的内核来渲染页面-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!--设置视口宽度为设备的宽度-->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<!--禁止识别电话号码和邮箱地址-->
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+	
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+	<style type="text/css">
+		.swiper-container {
+			width: 100%;
+			height: 306px;
+			margin: 20px auto;
+		}
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			width: 60%;
+			height: 45%;      Center slide text vertically
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+		.swiper-slide:nth-child(2n) {
+			width: 40%;
+		}
+		.swiper-slide:nth-child(3n) {
+			width: 40%;
+		}
+		.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+			bottom: 78px;
+			left: 0;
+			width: 100%;
+		}
+		.swiper-container .swiper-wrapper  .swiper-slide {
+			width: 166px;
+			margin-right: 7% !important;
+		}
+		.swiper-pagination-bullet {
+			background: #f8f8f8;
+		}
+		.swiper-slide {
+			background: none;
+			width: 43% !important;
+			height: 66% !important;
+		}
+		.swiper-slide img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<section class="containers" id="containers">
+		<header class="headers-top " id="headers-top">
+			<span class="fa fa-navicon menu-top"></span>
+			<h3 class="title-top">News</h3>
+			<span class="shans fa fa-flash"></span>
+			<span class="mores-top fa fa-ellipsis-h"></span>
+		</header>
+		<section class="main-center" id="main-center">
+			<div class="main-center-box">
+				<!-- <h3 class="titles-msg">START YOUR JOURNEY</h3>
+				<p>Congrats,matey!You're good to go.</p>
+				<p>Just one last bit o'advice.If I may.</p>
+				<p>Watch out for the Chost Shop!</p> -->
+			</div>
+			<div class="main-center-box-next"> <span>GET STARTED</span> <span class="fa fa-arrow-right next-btns"></span></div>
+			 <div class="swiper-container">
+			     <div class="swiper-wrapper">
+				      <div class="swiper-slide "><img src="../img/tu1.png" /></div>
+				      <div class="swiper-slide "><img src="../img/tu2.png" /></div>
+			       	  <div class="swiper-slide "><img src="../img/tu1.png" /></div>
+				      <div class="swiper-slide "><img src="../img/tu2.png" /></div>
+			     </div>
+			     Add Pagination
+			     <div class="swiper-pagination"></div>
+			 </div>
+		</section>
+
+	</section>
+<script src="../lib/requirejs/require.2.1.15.min.js" data-main="../main"></script>
+	
+	
+</body>
+</html>

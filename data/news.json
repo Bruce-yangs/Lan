@@ -1,0 +1,19 @@
+{
+    "news": [{
+            "Newtitle": "START YOUR JOURNEY",
+            "Newmsg": [
+                "Congrats,matey!You're good to go.",
+                "Just one last bit o'advice.If I may.",
+                "Watch out for the Chost Shop!"
+            ],
+            "NewImg": [
+                "tu2.png",
+                "tu1.png",
+                "tu2.png",
+                "tu1.png"
+            ]
+        }
+
+
+    ]
+}
