@@ -23,6 +23,6 @@ require.config({
          },
     }
 });*/
-require(["fastClick","js/index","js/login","js/new","js/two"],function(fc){
+require(["fastClick","js/index","js/login","js/new","js/two","js/playlist"],function(fc){
    fc.attach(document.body);
 }) 

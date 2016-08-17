@@ -1,4 +1,6 @@
 define(["jquery", "swal"], function($, swal) {
+ //if(window.location.href.indexOf('login.html') == -1) return;
+
   $(".register-btn").on("click", function() {
     $(".content").addClass("register-show");
 
@@ -10,7 +12,6 @@ define(["jquery", "swal"], function($, swal) {
     if (!reg.test(emailV)) {
       swal("请输入正确格式的邮箱!");
     }
-
   })
 
   $(".login-btn").on("click", function() {
@@ -77,6 +78,6 @@ define(["jquery", "swal"], function($, swal) {
 
 
   $(".g-section").on("click", function() {
-    location.href = "news-first.html";
+    location.href = "playlist.html";
   })
 })

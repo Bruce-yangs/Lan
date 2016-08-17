@@ -23,8 +23,8 @@ define(['jquery',"js/swiper-3.3.1.jquery.min","js/swiper.animate1.0.2.min"],func
 
         $.when($.ajax('../data/news.json'))
           .done(function(e){
-           var data = e.news
-            render(data)
+           var data = e.news;
+             render(data);
          })
          .fail(function(e){
            console.log('请求失败')

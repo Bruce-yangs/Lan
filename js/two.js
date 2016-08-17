@@ -48,10 +48,6 @@ $('.back').on('click',function(){
   Lists.scrollTop(0);
 })
 
-
-
-
-
 function loadData(ele,num){
   $('.loading').removeClass('on');
   
@@ -64,7 +60,7 @@ function loadData(ele,num){
        render(data);
        setTimeout(function(){
           $('.loading').addClass('on');
-       },500)
+       },1000)
     },error:function(e){
        console.log('请求失败')
     }
